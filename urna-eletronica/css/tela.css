@@ -70,6 +70,7 @@
 .tela .principal .candidato .imagem {
   height: 100px;
   border: 1px solid;
+  overflow: hidden;
 }
 .tela .principal .candidato .imagem img {
   width: 100%;
