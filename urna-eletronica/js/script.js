@@ -7,6 +7,11 @@ const rRodape = document.querySelector('.esquerda .rodape')
 const candidato = document.querySelector('.direita .candidato')
 const vice = document.querySelector('.direita .candidato.menor')
 
+ajax('etapas.json', 'GET', (response) => {
+  let json = JSON.parse(response)
+  console.log(json)
+})
+
 window.onload = () => {
   let btns = document.querySelectorAll('.teclado--botao')
   for (let btn of btns) {
