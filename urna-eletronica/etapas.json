@@ -3,20 +3,25 @@
         "titulo": "vereador",
         "numeros": 5,
         "candidatos": {
-            "12345": {
-                "nome": "Fulano de Tal",
-                "partido": "PT",
+            "51222": {
+                "nome": "Christianne Varão",
+                "partido": "PEN",
                 "foto": "cv1.jpg"
             },
-            "23456": {
-                "nome": "Ciclano de Tal",
+            "55555": {
+                "nome": "Homero do Zé Filho",
                 "partido": "PSL",
                 "foto": "cv2.jpg"
             },
-            "34567": {
-                "nome": "Beltrano de Tal",
+            "43333": {
+                "nome": "Dandor",
                 "partido": "PV",
                 "foto": "cv3.jpg"
+            },
+            "15123": {
+                "nome": "Filho",
+                "partido": "MDB",
+                "foto": "cv4.jpg"
             }
         }
     },
@@ -25,33 +30,33 @@
         "numeros": 2,
         "candidatos": {
             "12": {
-                "nome": "Alcionildo Matos",
-                "partido": "PDT",
-                "foto": "cp1.jpg",
-                "vice": {
-                    "nome": "João da Silva",
-                    "partido": "PT",
-                    "foto": "v1.jpg"
-                }
-            },
-            "22": {
-                "nome": "Christiane Varão",
-                "partido": "PL",
-                "foto": "cp2.jpg",
-                "vice": {
-                    "nome": "Maria Costa Porto",
-                    "partido": "MDB",
-                    "foto": "v2.jpg"
-                }
-            },
-            "35": {
                 "nome": "Dr. Francisco",
                 "partido": "PSC",
                 "foto": "cp3.jpg",
                 "vice": {
-                    "nome": "Rafael Souza",
+                    "nome": "João Rodrigues",
                     "partido": "PV",
                     "foto": "v3.jpg"
+                }
+            },
+            "15": {
+                "nome": "Malrinete Gralhada",
+                "partido": "MDB",
+                "foto": "cp2.jpg",
+                "vice": {
+                    "nome": "Biga",
+                    "partido": "MDB",
+                    "foto": "v2.jpg"
+                }
+            },
+            "45": {
+                "nome": "Chiquinho do Adbon",
+                "partido": "PDT",
+                "foto": "cp1.jpg",
+                "vice": {
+                    "nome": "Arão",
+                    "partido": "PT",
+                    "foto": "v1.jpg"
                 }
             }
         }
