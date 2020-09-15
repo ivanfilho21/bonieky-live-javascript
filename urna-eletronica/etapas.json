@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "titulo": "vereador",
         "numeros": 5,
         "candidatos": {
@@ -22,20 +22,30 @@
                 "nome": "Filho",
                 "partido": "MDB",
                 "foto": "cv4.jpg"
+            },
+            "27222": {
+                "nome": "Joel Varão",
+                "partido": "PSDC",
+                "foto": "cv5.jpg"
+            },
+            "45000": {
+                "nome": "Professor Clebson Almeida",
+                "partido": "PSDB",
+                "foto": "cv6.jpg"
             }
         }
     },
-    "2": {
+    "1": {
         "titulo": "prefeito",
         "numeros": 2,
         "candidatos": {
             "12": {
-                "nome": "Dr. Francisco",
-                "partido": "PSC",
+                "nome": "Chiquinho do Adbon",
+                "partido": "PDT",
                 "foto": "cp3.jpg",
                 "vice": {
-                    "nome": "João Rodrigues",
-                    "partido": "PV",
+                    "nome": "Arão",
+                    "partido": "PRP",
                     "foto": "v3.jpg"
                 }
             },
@@ -50,13 +60,33 @@
                 }
             },
             "45": {
-                "nome": "Chiquinho do Adbon",
-                "partido": "PDT",
+                "nome": "Dr. Francisco",
+                "partido": "PSC",
                 "foto": "cp1.jpg",
                 "vice": {
-                    "nome": "Arão",
-                    "partido": "PT",
+                    "nome": "João Rodrigues",
+                    "partido": "PV",
                     "foto": "v1.jpg"
+                }
+            },
+            "54": {
+                "nome": "Zé Lopes",
+                "partido": "PPL",
+                "foto": "cp4.jpg",
+                "vice": {
+                    "nome": "Francisca Ferreira Ramos",
+                    "partido": "PPL",
+                    "foto": "v4.jpg"
+                }
+            },
+            "65": {
+                "nome": "Lindomar Pescador",
+                "partido": "PC do B",
+                "foto": "cp5.jpg",
+                "vice": {
+                    "nome": "Malú",
+                    "partido": "PC do B",
+                    "foto": "v5.jpg"
                 }
             }
         }
