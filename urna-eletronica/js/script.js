@@ -165,6 +165,7 @@ function branco() {
     numeros.style.display = 'none'
     rVotoPara.style.display = 'inline'
     rDescricao.style.display = 'block'
+    rMensagem.style.display = 'block'
     rMensagem.innerHTML = 'VOTO EM BRANCO'
   }
 
