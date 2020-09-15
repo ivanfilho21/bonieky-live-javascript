@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+  margin: 1.5rem 0;
   text-align: center;
 }
 
@@ -20,6 +21,7 @@ h1 {
 .urna {
   display: inline-flex;
   padding: 1.5rem 3rem;
+  border-style: outset;
   background-color: #dbd5c9;
 }
 
@@ -30,34 +32,36 @@ h1 {
   height: 400px;
   background: linear-gradient(to right, #e8e8e8, #c1c1c1);
   border-style: inset;
+  border-width: 6px;
 }
 
 .lateral {
-  margin-left: 2rem;
+  width: 320px;
+  margin-left: 1.5rem;
 }
 
 .logoarea {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem;
   background-color: #e8e8e8;
 }
 .logoarea img {
-  max-width: 50px;
+  max-width: 60px;
   filter: grayscale();
 }
 .logoarea h2 {
-  width: 50%;
+  margin-left: 1rem;
   text-align: center;
   text-transform: uppercase;
+  color: #444444;
 }
 
 .teclado {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem 0;
   border-style: outset;
   background-color: #403a3a;
 }
@@ -68,24 +72,26 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45px;
-  height: 45px;
   margin: 0.45rem;
-  font-size: 1rem;
+  padding: 0.5rem 1.5rem 0.25rem 0.5rem;
+  font-size: 1.5rem;
   background-color: black;
   border: none;
   border-radius: 4px;
-  color: white;
+  color: whitesmoke;
   cursor: pointer;
-  box-shadow: 3px 3px 1px #222222;
+  box-shadow: 4px -4px 1px #222222;
+}
+.teclado--botao:active {
+  box-shadow: 2px 2px 0px #222222;
 }
 .teclado--botao.especial {
   width: auto;
-  height: 40px;
-  padding: 0 0.5rem;
+  padding: 0.25rem 0.5rem 1rem 0.5rem;
   align-self: flex-end;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-weight: bold;
   color: black;
 }
 .teclado--botao.especial.branco {
@@ -95,7 +101,7 @@ h1 {
   background-color: orangered;
 }
 .teclado--botao.especial.verde {
-  height: 50px;
-  font-size: 0.85em;
+  padding: 0.5rem 0.25rem 1.5rem 0.25rem;
+  font-size: 0.95em;
   background-color: green;
 }

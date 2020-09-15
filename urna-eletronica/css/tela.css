@@ -23,16 +23,18 @@
 
 .tela .principal .esquerda .rotulo {
   display: block;
-  height: 50px;
+  height: 40px;
   line-height: 50px;
   padding: 0 2rem;
   text-transform: uppercase;
+  font-size: 0.95rem;
 }
 
 .tela .principal .esquerda .rotulo.r1 {}
 
 .tela .principal .esquerda .rotulo.r2 {
   text-align: center;
+  font-size: 1.5em;
 }
 
 .tela .principal .esquerda .rotulo.r3 {}
@@ -40,16 +42,26 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 50px;
+  width: 30px;
+  height: 40px;
   margin: 0.5rem 0.15rem;
+  font-size: 2.25em;
   border: 2px solid #444444;
 }
 
 .tela .principal .esquerda .rotulo.r4 {
   flex: 1;
   padding-top: 0.5rem;
-  line-height: 40px;
+  line-height: 35px;
+}
+.tela .principal .esquerda .rotulo.r4 .mensagem {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.tela .principal .esquerda .rotulo.r4 span {
+  font-size: 1.25em;
 }
 
 .tela .principal .direita {
@@ -88,4 +100,13 @@
   height: 70px;
   padding: 0.5rem 1rem;
   border-top: 2px solid #222222;
+}
+
+.tela .fim {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
 }
