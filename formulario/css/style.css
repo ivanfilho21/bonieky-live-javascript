@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0.5rem;
+}
+
+.banner p {
+  padding: 0 2em;
+  font-size: 1.35rem;
+  text-align: center;
+  color: dodgerblue;
+}
+
+@media (min-width: 960px) {
+  main {
+    flex-flow: row wrap;
+  }
+
+  .banner {
+    flex: 1;
+  }
+
+  .form-area {
+    width: 30%;
+  }
+}
