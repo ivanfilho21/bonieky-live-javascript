@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Criar Conta</title>
+  <script src="js/script.js" defer></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/form.css">
 </head>
@@ -17,15 +18,15 @@
     <div class="form-area">
       <h1 class="form-titulo">Criar Conta</h1>
 
-      <form action="" method="POST">
+      <form action="enviado.html" method="GET" class="formulario">
         <label>Nome Completo:</label>
-        <input type="text" name="nome">
+        <input type="text" name="nome" data-rules="required | min:2">
 
         <label>E-mail:</label>
-        <input type="text" name="email">
+        <input type="text" name="email" data-rules="required | email">
 
         <label>Senha:</label>
-        <input type="password" name="senha">
+        <input type="password" name="senha" data-rules="required | min:4 | confirmed">
 
         <label>Repita a Senha:</label>
         <input type="password" name="senha_confirmacao">
