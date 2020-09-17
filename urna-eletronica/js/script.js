@@ -147,6 +147,8 @@ function clicar(value) {
     } else {
       atualizarInterface()
     }
+
+    (new Audio('audio/se1.mp3')).play()
   }
 }
 
@@ -166,7 +168,9 @@ function branco() {
     rVotoPara.style.display = 'inline'
     rDescricao.style.display = 'block'
     rMensagem.style.display = 'block'
-    rMensagem.innerHTML = 'VOTO EM BRANCO'
+    rMensagem.innerHTML = 'VOTO EM BRANCO';
+
+    (new Audio('audio/se1.mp3')).play()
   }
 
 }
@@ -175,7 +179,8 @@ function branco() {
  * Reinicia a etapa atual.
  */
 function corrigir() {
-  console.log('corrigir')
+  console.log('corrigir');
+  (new Audio('audio/se2.mp3')).play()
   comecarEtapa()
 }
 
@@ -224,5 +229,6 @@ function confirmar() {
     `
   }
 
+  (new Audio('audio/se3.mp3')).play()
   comecarEtapa()
 }
