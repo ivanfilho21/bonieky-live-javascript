@@ -18,4 +18,6 @@ Um slider de fotos com botões para avançar, voltar e pausar a apresentação.
 
 Um formulário que, ao ser enviado, é validado pelo próprio navegador. São mostradas mensagens de erro para o usuário.
 
-> Em andamento
+<div style="border: 1px solid #999999;">
+    <img src="formulario/screenshot.jpg" alt="Formulário">
+</div>
