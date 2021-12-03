@@ -48,7 +48,7 @@ function comecarEtapa() {
   numeroDigitado = ''
   votoEmBranco = false
 
-  numeros.style.display = 'block'
+  numeros.style.display = 'flex'
   numeros.innerHTML = ''
   rVotoPara.style.display = 'none'
   rCandidato.style.display = 'none'
